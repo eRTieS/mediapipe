@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mediapipe"
+version = "0.1.0"
+description = ""
+authors = ["Rumen Tsvetkov <r.tsvetkov@tinqin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+attrs = ">=19.1.0"
+protobuf = ">=4.25.3,<5"
+sounddevice = ">=0.4.4"
+absl-py = "^2.1.0"
+flatbuffers = "^25.1.24"
+jax = "^0.5.0"
+matplotlib = "^3.10.0"
+opencv-contrib-python = "^4.11.0.86"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
